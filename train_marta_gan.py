@@ -179,7 +179,7 @@ def main(_):
                 print("[Sample] d_loss: %.8f, g_loss: %.8f" % (errD, errG))
 #                for i in range(len(D)):
 #                    print D[i].shape
-                print D[-1], D_, sigmoid(D[-1]), sigmoid(D[-1])==D_
+                #print D[-1], D_, sigmoid(D[-1]), sigmoid(D[-1])==D_
                 sys.stdout.flush()
 
             if np.mod(epoch, 5) == 0:

@@ -97,7 +97,7 @@ def main(_):
 
         print 'extract traning feature'
         
-        data_files = glob(os.path.join("./data", 'uc_train_256_feat', "*.jpg"))
+        data_files = glob(os.path.join("./data", 'uc_train_256_data', "*.jpg"))
         shuffle(data_files)
         
        
@@ -129,7 +129,7 @@ def main(_):
             begin = FLAGS.batch_size*idx
             end = FLAGS.batch_size + begin
             feats[begin:end, ...] = feat 
-
+            print idx
         np.save('features/features%d_train.npy'%num, feats)
         np.save('features/label%d_train.npy'%num, y)
         
@@ -167,7 +167,7 @@ def main(_):
             end = FLAGS.batch_size + begin
             feats[begin:end, ...] = feat 
 
-            #print idx
+            print idx
 
         np.save('features/features%d_test.npy'%num, feats)
         np.save('features/label%d_test.npy'%num, y)

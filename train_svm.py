@@ -16,12 +16,12 @@ from sklearn import svm
 #
 import numpy as np
 acc = []
-nums = [55, 60, 65, 70, 75, 80, 85]
+nums = [75]
 for num in nums:
-    X_train=np.load('feat_match/features%d_train.npy'%num)
-    y_train=np.load('feat_match/label%d_train.npy'%num)
-    X_test=np.load('feat_match/features%d_test.npy'%num)
-    y_test=np.load('feat_match/label%d_test.npy'%num)
+    X_train=np.load('features/features%d_train.npy'%num)
+    y_train=np.load('features/label%d_train.npy'%num)
+    X_test=np.load('features/features%d_test.npy'%num)
+    y_test=np.load('features/label%d_test.npy'%num)
 
     print("Fitting the classifier to the training set")
     t0 = time()

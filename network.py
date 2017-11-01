@@ -19,7 +19,7 @@ from utils import *
 
 def generator_simplified_api(inputs, is_train=True, reuse=False):
     image_size = 256
-    k = 5
+    k = 4
     # 128, 64, 32, 16
     s2, s4, s8, s16, s32, s64 = int(image_size/2), int(image_size/4), int(image_size/8), int(image_size/16), int(image_size/32), int(image_size/64)
 
