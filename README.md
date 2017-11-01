@@ -14,17 +14,17 @@ Download and unzip dataset from [BaiDuYun](https://pan.baidu.com/s/1i5zQNdj) or 
 
 ## Usage
 
-### Training GAN
+Training GAN
 ```
 python train_marta_gan.py
 ```
 
-### Extract features
+Extract features
 ```
 python extract_feature.py
 ```
 
-### Training SVM
+Training SVM
 
 ```
 python train_svm.py
