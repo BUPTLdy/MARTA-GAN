@@ -8,6 +8,9 @@ This is the code for [MARTA GANs: Unsupervised Representation Learning for Remot
 Download and unzip dataset from [BaiDuYun](https://pan.baidu.com/s/1i5zQNdj) or [Google Drive](https://drive.google.com/open?id=0B1Evui8Soh85ZXM3cDNvbGdOamc).
 
 ## Dependencies
+
+NVIDIA GPU + CUDA CuDNN (CPU mode and CUDA without CuDNN mode are also available but significantly slower)
+
 - tensorflow
 - tensorlayer
 - sklearn
