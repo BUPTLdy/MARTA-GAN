@@ -1,5 +1,5 @@
 # MARTA-GAN
-This is the code for [MARTA GANs: Unsupervised Representation Learning for Remote Sensing Image Classification](http://ieeexplore.ieee.org/document/8059820/). An multiple-layer feature-matching generative adversarial networks (MARTA GANs) to learn a representation using only unlabeled data.  
+This is the code for [MARTA GANs: Unsupervised Representation Learning for Remote Sensing Image Classification](https://arxiv.org/abs/1612.08879). An multiple-layer feature-matching generative adversarial networks (MARTA GANs) to learn a representation using only unlabeled data.  
 
 
 
